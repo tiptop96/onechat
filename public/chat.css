@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    padding: 200px;
+}
+
+#chat_box {
+    width: 100%;
+    height: 40px;
+}
