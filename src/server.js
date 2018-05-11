@@ -1,4 +1,4 @@
-const setupServerEndpoints = (app) => {
+const setupServerEndpoints = (app, express) => {
     app.get("/", (req, res) => {
         res.sendFile(__dirname + "/public/chat.html");
     })
